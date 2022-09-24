@@ -1,0 +1,585 @@
+* {
+    box-sizing: border-box;
+  }
+  p a{
+    text-decoration: none;
+    color:black;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  p a:visited{
+    color:#CC0066;
+  }
+  p a:hover{
+    background-color:#FFCCCC;
+    font-size: large;
+  }
+  p a:active{
+    color:blueviolet;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  header {
+    background-color: #FF3399;
+    padding: 10px;
+    text-align: center;
+    font-size: 45px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif
+  }
+  
+  .mother{
+    background-color:#FFCCFF;
+    margin-right: 20px;
+    margin-left: 480px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif; 
+    border-style: outset ;
+    border-width: 10px;
+    border-color: #FF6699;
+    text-align: center;
+  }
+  .father{
+    background-color:#FFCCFF;
+    margin-right: 20px;
+    margin-left: 480px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif; 
+    border-style: outset ;
+    border-width: 10px;
+    border-color: #FF6699;
+    margin-top: -370px;
+    text-align: center;
+  }
+  .brother{
+    background-color:#FFCCFF;
+    margin-right: 20px;
+    margin-left: 480px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif; 
+    border-style: outset ;
+    border-width: 10px;
+    border-color: #FF6699;
+    text-align: center;
+  }
+  #Hobby p{
+    background-color:#FFCCFF;
+    margin-right: 500px;
+    text-align: justify;
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif; 
+    border-style: outset ;
+    border-width: 10px;
+    border-color: #FF6699;
+  }
+  #Hobby h6{
+    background-color:#FFCCFF;
+    margin-left: 500px;
+    margin-right: 10px;
+    border-style: outset ;
+    border-width: 10px;
+    border-color: #FF6699;
+    margin-top: -360px;
+  }
+  .friends{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 460px;
+  }
+  #Hobby h5{
+    background-color:#FFCCFF;
+    margin-left: 500px;
+    margin-right: 240px;
+    border-style: outset ;
+    border-width: 10px;
+    border-color: #FF6699;
+    margin-top: -2px;
+  }
+  .dog{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70px;
+    width: 230px;
+  }
+  #Hobby h4{
+    background-color:#FFCCFF;
+    margin-left: 770px;
+    margin-right: 10px;
+    border-style: outset ;
+    border-width: 10px;
+    border-color: #FF6699;
+    margin-top: -112px;
+  }
+  .Wattpad{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70px;
+    width: 190px;
+  }
+  #BasicInfo p{
+    background-color:#FFCCFF;
+    margin-right: 500px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif; 
+    border-style: outset ;
+    border-width: 10px;
+    border-color: #FF6699;
+  }
+  #BasicInfo h1{
+    background-color:#FFCCFF;
+    margin-left: 500px;
+    margin-right: 10px;
+    border-style: outset ;
+    border-width: 10px;
+    border-color: #FF6699;
+    margin-top: -370px;
+  }
+  .me{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 330px;
+    width: 460px;
+  }
+  .favorite1{
+    background-color:#FFCCFF;
+    margin-right: 600px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif; 
+    border-style: outset ;
+    border-width: 10px;
+    border-color: #FF6699;
+  }
+  .favorite2{
+    background-color:#FFCCFF;
+    margin-right: 10px;
+    margin-left: 400px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif; 
+    border-style: outset ;
+    border-width: 10px;
+    border-color: #FF6699;
+    margin-top: -295px;
+  }
+  .favorite3{
+    background-color:#FFCCFF;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif; 
+    border-style: outset ;
+    border-width: 10px;
+    border-color: #FF6699;
+  }
+  .family{
+    margin-left: 20px;
+    width: 43%;
+  }
+  .fb{
+    width:80%;
+  }
+
+  .mess{
+    width:80%;
+  }
+  .insta{
+    width:80%;
+  }
+  .gmail{
+    width:80%;
+  }
+  .twitter{
+    width:80%;
+  }
+  #Social h4{
+    margin-left: 330px; 
+    margin-right: 410px;
+    margin-top: 80px;
+  }
+  #Social h6{
+    margin-left: 550px; 
+    margin-right: 210px;
+    margin-top: -130px;
+  }
+  #Social h3{
+    margin-left: 750px; 
+    margin-right: 5px;
+    margin-top: -130px;
+  }
+  #Social h5{
+    margin-left: 200px; 
+    margin-right: 640px;
+    margin-top: -130px;
+  }
+  #Social p{
+    margin-left: 10px; 
+    margin-right: 740px;
+    margin-top: -130px;
+  }
+  #Social h2{
+    margin-left: 10px;
+  }
+
+  .achievement{
+    background-color:#FFCCFF;
+    margin-left: 20px;
+    text-align: justify;
+    margin-right: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif; 
+    border-style: outset ;
+    border-width: 10px;
+    border-color: #FF6699;
+  }
+  .schools{
+    background-color:#FFCCFF;
+    margin-left: 20px;
+    text-align: center;
+    margin-right: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif; 
+    border-style: outset ;
+    border-width: 5px;
+    border-color: #FF6699;
+  }
+  .ES{
+    background-color:#FFCCFF;
+    margin-left: 20px;
+    text-align: center;
+    margin-right: 700px;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif; 
+    border-style: outset ;
+    border-width: 5px;
+    border-color: #FF6699;
+  }
+  .HS{
+    background-color:#FFCCFF;
+    margin-left: 320px;
+    text-align: center;
+    margin-right: 400px;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif; 
+    border-style: outset ;
+    border-width: 5px;
+    border-color: #FF6699;
+    margin-top: -112px;
+  }
+  .College{
+    background-color:#FFCCFF;
+    margin-left: 600px;
+    text-align: center;
+    margin-right: 10px;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif; 
+    border-style: outset ;
+    border-width: 5px;
+    border-color: #FF6699;
+    margin-top: -112px;
+  }
+  section {
+    display: -webkit-flex;
+    display: flex;
+  }
+  nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background:#FF99CC;
+    padding: 25px;
+  }
+  .content {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #FFCCCC;
+    margin-left: 0%;
+    
+  }
+  footer {
+    background-color:#FF6699;
+    padding: 10px;
+    text-align: center;
+    color: black;
+  }
+  
+  .content div {
+      display: none;
+  }
+  
+  .content div:target {
+      display: block;
+    
+  }
+  @media (max-width: 600px) {
+    section {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+    #BasicInfo p{
+      background-color:#FFCCFF;
+      margin-right: auto;
+      margin-left: 0px;
+      font-size: 20px;
+      font-family: 'Times New Roman', Times, serif; 
+      border-style: outset ;
+      border-width: 10px;
+      border-color: #FF6699;
+    }
+    #BasicInfo h1{
+      background-color:#FFCCFF;
+      margin-left: 0px;
+      margin-right: auto;
+      border-style: outset ;
+      border-width: 10px;
+      border-color: #FF6699;
+      margin-top: 10px;
+    }
+    .me{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 330px;
+      width: 450px;
+    }
+    .favorite1{
+      background-color:#FFCCFF;
+      margin-right: auto;
+      margin-left: auto;
+      font-size: 20px;
+      font-family: 'Times New Roman', Times, serif; 
+      border-style: outset ;
+      border-width: 10px;
+      border-color: #FF6699;
+    }
+    .favorite2{
+      background-color:#FFCCFF;
+      margin-right: auto;
+      margin-left: auto;
+      font-size: 20px;
+      font-family: 'Times New Roman', Times, serif; 
+      border-style: outset ;
+      border-width: 10px;
+      border-color: #FF6699;
+      margin-top: 20px;
+    }
+    .favorite3{
+      background-color:#FFCCFF;
+      margin-right: auto;
+      margin-left: auto;
+      font-size: 20px;
+      font-family: 'Times New Roman', Times, serif; 
+      border-style: outset ;
+      border-width: 10px;
+      border-color: #FF6699;
+    }
+    #Hobby h6{
+      background-color:#FFCCFF;
+      margin-left: auto;
+      margin-right: auto;
+      border-style: outset;
+      border-width: 10px;
+      border-color: #FF6699;
+      margin-top: 20px;
+    }
+    .friends{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 200px;
+      width: 450px;
+    }
+    #Hobby h5{
+      background-color:#FFCCFF;
+      margin-left: auto;
+      margin-right: 240px;
+      border-style: outset ;
+      border-width: 10px;
+      border-color: #FF6699;
+      margin-top: 30px;
+    }
+    .dog{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 70px;
+      width: 208px;
+    }
+    #Hobby h4{
+      background-color:#FFCCFF;
+      margin-left: 240px;
+      margin-right: auto;
+      border-style: outset ;
+      border-width: 10px;
+      border-color: #FF6699;
+      margin-top: -112px;
+    }
+    .Wattpad{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 70px;
+      width: 208px;
+    }
+    #Hobby p{
+      background-color:#FFCCFF;
+      margin-right: auto;
+      text-align: justify;
+      margin-left: auto;
+      font-size: 20px;
+      font-family: 'Times New Roman', Times, serif; 
+      border-style: outset ;
+      border-width: 10px;
+      border-color: #FF6699;
+    }
+    .achievement{
+      background-color:#FFCCFF;
+      margin-left: auto;
+      text-align: justify;
+      margin-right: auto;
+      font-size: 20px;
+      font-family: 'Times New Roman', Times, serif; 
+      border-style: outset ;
+      border-width: 10px;
+      border-color: #FF6699;
+    }
+    .schools{
+      background-color:#FFCCFF;
+      margin-left: auto;
+      text-align: center;
+      margin-right: auto;
+      font-size: 20px;
+      font-family: 'Times New Roman', Times, serif; 
+      border-style: outset ;
+      border-width: 5px;
+      border-color: #FF6699;
+    }
+    .ES{
+      background-color:#FFCCFF;
+      margin-left: auto;
+      text-align: center;
+      margin-right: auto;
+      font-size: 23px;
+      font-family: 'Times New Roman', Times, serif; 
+      border-style: outset ;
+      border-width: 5px;
+      border-color: #FF6699;
+      margin-top: auto;
+    }
+    .HS{
+      background-color:#FFCCFF;
+      margin-left: auto;
+      text-align: center;
+      margin-right: auto;
+      font-size: 23px;
+      font-family: 'Times New Roman', Times, serif; 
+      border-style: outset ;
+      border-width: 5px;
+      border-color: #FF6699;
+      margin-top: auto;
+    }
+    .College{
+      background-color:#FFCCFF;
+      margin-left: auto;
+      text-align: center;
+      margin-right: auto;
+      font-size: 23px;
+      font-family: 'Times New Roman', Times, serif; 
+      border-style: outset ;
+      border-width: 5px;
+      border-color: #FF6699;
+      margin-top: auto;
+    }
+    .mother{
+      background-color:#FFCCFF;
+      margin-right: auto;
+      margin-left: auto;
+      font-size: 18px;
+      font-family: 'Times New Roman', Times, serif; 
+      border-style: outset ;
+      border-width: 10px;
+      border-color: #FF6699;
+      margin-top: 50px;
+      text-align: center;
+    }
+    .father{
+      background-color:#FFCCFF;
+      margin-right: auto;
+      margin-left: auto;
+      font-size: 18px;
+      font-family: 'Times New Roman', Times, serif; 
+      border-style: outset ;
+      border-width: 10px;
+      border-color: #FF6699;
+      margin-top: 20px;
+      text-align: center;
+    }
+    .brother{
+      text-align: center;
+      background-color:#FFCCFF;
+      margin-right: auto;
+      margin-left: auto;
+      font-size: 18px;
+      font-family: 'Times New Roman', Times, serif; 
+      border-style: outset ;
+      border-width: 10px;
+      border-color: #FF6699;
+      margin-top: 20px;
+    }
+    .family{
+      margin-left: auto;
+      width: 468px;
+      height: 185px;
+    }
+    .fb{
+      width:25%;
+    }
+  
+    .mess{
+      width:19%;
+    }
+    .insta{
+      width:20%;
+    }
+    .gmail{
+      width:40%;
+    }
+    .twitter{
+      width:90%;
+    }
+    #Social h4{
+      margin-left: auto; 
+      margin-right: auto;
+      margin-top: 50px;
+    }
+    #Social h6{
+      margin-left: 270px; 
+      margin-right: auto;
+      margin-top: -75px;
+    }
+    #Social h3{
+      margin-left: 370px; 
+      margin-right: auto;
+      margin-top: -75px;
+    }
+    #Social h5{
+      margin-left: 180px; 
+      margin-right: auto;
+      margin-top: -80px;
+    }
+    #Social p{
+      margin-left: 70px; 
+      margin-right: auto;
+      margin-top: -83px;
+    }
+  }
